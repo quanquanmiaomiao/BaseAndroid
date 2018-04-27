@@ -1,13 +1,28 @@
 package com.base.baseandroid;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import android.view.View;
+import com.base.baselibrary.base.BaseActivity;
+
+
+public class MainActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public View getRootView() {
+        return View.inflate(this,R.layout.activity_main,null);
     }
+
+
+    @Override
+    public void initView() {
+    }
+
+
+    @Override
+    public void initData() {
+
+    }
+
+
+
 }

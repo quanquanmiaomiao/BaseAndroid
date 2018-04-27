@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 顶部导航栏自定义属性 -->
+    <declare-styleable name="TOP_BAR">
+        <attr name="leftTxt" format="string"/>
+        <attr name="leftColor" format="dimension"/>
+        <attr name="leftIcon" format="dimension"/>
+        <attr name="titleTxt" format="string"/>
+        <attr name="titleColor" format="dimension"/>
+        <attr name="rightTxt" format="string"/>
+        <attr name="rightColor" format="color"/>
+        <attr name="rightIcon" format="dimension"/>
+    </declare-styleable>
+
+</resources>

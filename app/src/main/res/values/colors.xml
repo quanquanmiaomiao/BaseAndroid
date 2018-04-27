@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="main_color">#E0272E</color>
+    <color name="Iron">#D7D7D7</color>
+    <color name="important_text_color">#000000</color>
+    <color name="assist_text_color">#AEAEAE</color>
+    <color name="white_text_color">#FFFFFF</color>
+    <color name="bind_phone_send_code">#FF69ABF2</color>
+    <color name="welfare_red_color">#FFE0272E</color>
+
 </resources>

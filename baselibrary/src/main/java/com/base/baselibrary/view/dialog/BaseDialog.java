@@ -41,7 +41,7 @@ public class BaseDialog extends Dialog {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.base_dialog);
+        setContentView(R.layout.dialog_base);
 
         tvTitle =  findViewById(R.id.tv_title);
         tvMsg =  findViewById(R.id.tv_message);
