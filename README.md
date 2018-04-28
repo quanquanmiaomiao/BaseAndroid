@@ -6,13 +6,12 @@ Android基础框架
 baselibrary  
 
 常用库  
-1.butterknife  
-2.glide  
-3.okgo  
-4.autolayout  
-5.jsbridge  
-6.gson  
-7.smartrefresh  
+1.glide  
+2.okgo  
+3.autolayout  
+4.jsbridge  
+5.gson  
+6.smartrefresh  
 
 工具类  
 1.ClickFilter  
