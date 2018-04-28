@@ -13,7 +13,6 @@ import android.view.inputmethod.InputMethodManager;
 
 import com.zhy.autolayout.AutoLayoutActivity;
 
-import butterknife.ButterKnife;
 
 
 /**
@@ -38,7 +37,6 @@ public abstract class BaseActivity extends AutoLayoutActivity {
         mActivity = this;
         mRoot = getRootView();
         setContentView(mRoot);
-        
         initView();
         initData();
     }

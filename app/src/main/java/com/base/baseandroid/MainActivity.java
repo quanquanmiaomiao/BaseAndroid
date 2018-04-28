@@ -10,13 +10,15 @@ import com.base.baseandroid.fragment.ThridFragment;
 import com.base.baselibrary.base.BaseActivity;
 import com.base.baselibrary.view.BottomBar;
 
-
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 
 public class MainActivity extends BaseActivity {
 
 
-   private BottomBar bottomBar;
+    @BindView(R.id.bottom_bar)
+    BottomBar bottomBar;
 
     @Override
     public View getRootView() {
@@ -26,7 +28,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void initView() {
-        bottomBar = findViewById(R.id.bottom_bar);
+        ButterKnife.bind(this);
         initBottomBar();
     }
 
