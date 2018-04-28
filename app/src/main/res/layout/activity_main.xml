@@ -5,9 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context="com.base.baseandroid.MainActivity">
 
 
+    <FrameLayout
+        android:id="@+id/fr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_bar"/>
 
 
+
+    <com.base.baselibrary.view.BottomBar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main"
+        android:layout_height="@dimen/dp50" />
 </RelativeLayout>

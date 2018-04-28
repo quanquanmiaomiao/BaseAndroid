@@ -38,9 +38,9 @@ public abstract class BaseActivity extends AutoLayoutActivity {
         mActivity = this;
         mRoot = getRootView();
         setContentView(mRoot);
+        
         initView();
         initData();
-        ButterKnife.bind(this);
     }
 
 

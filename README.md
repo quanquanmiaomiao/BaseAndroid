@@ -22,15 +22,21 @@ baselibrary
 5.GsonUtil  
 6.SpUtils  
 7.UIHelper  
-8.UpdateManager
+8.UpdateManager  
+9.BaseImageUtil  
+10.okgo
 
 自定义View  
-1.BaseDialog
-2.BottomBar  
-3.TopBar  
-4.UnScrollGridview  
-5.UnScrollListView  
-6.UnScrollView  
+1.BottomBar  
+2.TopBar  
+3.UnScrollGridview  
+4.UnScrollListView  
+5.UnScrollView  
+
+
+通用对话框  
+1.LoadingDialog  
+2.BaseDialog  
 
 
 

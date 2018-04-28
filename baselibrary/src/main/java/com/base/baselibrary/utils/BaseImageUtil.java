@@ -1,4 +1,4 @@
-package com.base.baselibrary.base;
+package com.base.baselibrary.utils;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -21,19 +21,19 @@ import java.security.MessageDigest;
 /**
  * 基本功能：图片加载工具
  */
-public class BaseImage {
+public class BaseImageUtil {
 
     public static final String ANDROID_RESOURCE = "android.resource://";
     public static final String FOREWARD_SLASH = "/";
 
     private static class ImageLoaderHolder {
-        private static final BaseImage INSTANCE = new BaseImage();
+        private static final BaseImageUtil INSTANCE = new BaseImageUtil();
     }
 
-    private BaseImage() {
+    private BaseImageUtil() {
     }
 
-    public static final BaseImage getInstance() {
+    public static final BaseImageUtil getInstance() {
         return ImageLoaderHolder.INSTANCE;
     }
 
